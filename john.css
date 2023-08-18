@@ -1,0 +1,132 @@
+.diva {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(image/Nigerian-market.jpg.webp);
+    border-radius: 6px;
+}
+.diva > div {
+    background-color: rgb(238, 181, 39);
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 1.9rem;
+    
+}
+.diva > div >img{
+    width: 400px;
+    height: 250px;
+    border-radius: 6px;
+}
+.diva > div >p{
+    color: rgba(234, 243, 248, 0.979);
+    font-size: small;
+    font-weight: 100px;
+    padding: 1.9rem;
+    margin: 4rem;
+    max-width: rem;
+    font-size: 11px;
+    line-height: normal;
+    padding-bottom: 300px;
+    position:  relative;
+    bottom: 8px;
+    left: 16px;
+    bottom: 110px;
+}
+.joy{
+    background-image: linear-gradient( rgba(197, 66, 5, 0.027), rgba(206, 102, 5, 0.034)), url(image/344904844_1339608793563094_6671954466079214073_n.jpg);
+    width: 350px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bless{
+    text-align: center;
+    color: whitesmoke;
+}
+body{
+    background-image: url(image/Top-12-Christmas-dishes-in-Nigeria-sweet-and-savory-960x800.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mary{
+    text-align: center;
+    font-size: 1.3rem;
+    position: fixed;
+   
+
+}
+.mary >a{
+    color: rgba(240, 230, 230, 0.979);
+    padding-right: 10px;
+    text-decoration: none;
+    text-shadow: 5px;
+}
+
+.dev{
+    font-size: 1.6rem;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+.life{
+    margin-right: 90px;
+    font-size: 30px;
+}
+.class{
+    font-size: 50px;
+    margin-left: 1100px;
+    text-transform: none;
+    
+
+}
+.class > a > button{
+    height: 50px;
+    font-size: 20px;
+    background-color: rgba(137, 43, 226, 0.034);
+    text-transform: none;
+    border-radius: 0.5rem;
+    color: blue;
+}
+.pabbs{
+    text-align: center;
+    padding-left: 1000px;
+
+}
+
+.veli{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.veli >input{
+    background-color: rgba(12, 5, 206, 0);
+    padding: 1rem;
+    margin-bottom: 0.3%;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.bar{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.bar >input{
+    background-color: rgba(12, 5, 206, 0);
+    padding: 1rem;
+    margin-bottom: 0.2%;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+p{
+    font-size: 30px;
+}
+
+
+@media screen and (min-width: 1200px) {
+    body {
+      font-size: 18px;
+      color: red;
+    }
+  }
